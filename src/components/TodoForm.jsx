@@ -39,7 +39,7 @@ export default function TodoForm() {
         <StatusTodo/>
         {loading ? (
           <div className="flex justify-center my-4">
-            <ClipLoader color="#3b82f6" size={35} />
+            <ClipLoader color="#3b82f6" size={50} />
           </div>
         ) : (
           <TodoList todos={listData} />
